@@ -1,0 +1,4 @@
+/* 2354180 Õı‘œ∫≠ º∆ø∆ */
+#pragma once
+int menu();
+char menu_starball(int program);
