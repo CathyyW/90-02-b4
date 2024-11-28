@@ -135,6 +135,8 @@ public:
 
 	/* 允许按需加入需要的友元声明等，public中不再允许放入其它成员函数（因为外部无调用需求）*/ 
 	friend void row_extractcon(config_file_tools& mcfg, const vector<string>buffer, int row, const enum BREAK_CTYPE _ctype);
+	friend int comp_sen(config_file_tools& mcfg, const char* const name);
+	friend int comp_insen(config_file_tools& mcfg, const char* const name);
 	
 };
 
